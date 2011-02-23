@@ -9,7 +9,7 @@ merge-solutions.exe [/nonstop] [/fix] [/config solutionlist.txt] [/out merged.sl
 
         /out merged.sln: path to output solution file. Default is 'merged.sln'
 
-        /nonstop: don't prompt for keypress if there were errors/warnings
+        /nonstop: do not prompt for keypress if there were errors/warnings
 
         solution?.sln - list of solutions to be merged
 }}}
