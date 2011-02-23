@@ -1,4 +1,3 @@
-#summary HOWTO use
 {{{
 merge-solutions.exe [/nonstop] [/fix] [/config solutionlist.txt] [/out merged.sln] [solution1.sln solution2.sln ...]
 
