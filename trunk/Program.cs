@@ -109,7 +109,7 @@ namespace SolutionMerger
         private static void OutputHelp()
         {
             Console.WriteLine("Howto use this:");
-            Console.WriteLine("SolutionMerger.exe [/nonstop] [/fix] [/config solutionlist.txt] [/out merged.sln] [solution1.sln solution2.sln ...]");
+            Console.WriteLine("merge-solutions.exe [/nonstop] [/fix] [/config solutionlist.txt] [/out merged.sln] [solution1.sln solution2.sln ...]");
             Console.WriteLine("        /fix: Regenerates duplicate project guids and replaces them in corresponding project/solution files");
             Console.WriteLine("              requires write-access to project and solution files");
             Console.WriteLine("        /config solutionlist.txt: Takes list of new-line separated solution paths from solutionlist.txt file");
